@@ -2,7 +2,7 @@ import std.stdio;
 import std.math;
 
 void main() {
-	int n = 1;
+	int n = 20;
 
 	while(true) {
 		bool div = true;
@@ -15,7 +15,7 @@ void main() {
 			break;
 		}
 		else {
-			n++;
+			n += 20;
 		}
 	}
 	write(n);
